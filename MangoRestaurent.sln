@@ -3,7 +3,11 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.31424.327
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MangoRestaurent.Web", "MangoRestaurent.Web\MangoRestaurent.Web.csproj", "{536325D7-FE56-4286-A994-2C659F995D18}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MangoRestaurent.Web", "MangoRestaurent.Web\MangoRestaurent.Web.csproj", "{536325D7-FE56-4286-A994-2C659F995D18}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Services", "Services", "{DCAD4805-990E-4545-9A5B-C55FE3437D1E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MangoServices.ProductAPI", "MangoServices.ProductAPI\MangoServices.ProductAPI.csproj", "{36F98FF0-9726-4420-BAF2-3C6F2BDFC962}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -15,9 +19,16 @@ Global
 		{536325D7-FE56-4286-A994-2C659F995D18}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{536325D7-FE56-4286-A994-2C659F995D18}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{536325D7-FE56-4286-A994-2C659F995D18}.Release|Any CPU.Build.0 = Release|Any CPU
+		{36F98FF0-9726-4420-BAF2-3C6F2BDFC962}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{36F98FF0-9726-4420-BAF2-3C6F2BDFC962}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{36F98FF0-9726-4420-BAF2-3C6F2BDFC962}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{36F98FF0-9726-4420-BAF2-3C6F2BDFC962}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{36F98FF0-9726-4420-BAF2-3C6F2BDFC962} = {DCAD4805-990E-4545-9A5B-C55FE3437D1E}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {57905296-03B8-4D78-AFEF-711BDD40D0F1}
